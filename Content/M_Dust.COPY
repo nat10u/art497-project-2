@@ -1,0 +1,523 @@
+Begin Object Class=/Script/Engine.Material Name="M_Dust"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameter2D Name="MaterialExpressionTextureSampleParameter2D_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureCoordinate Name="MaterialExpressionTextureCoordinate_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionReroute Name="MaterialExpressionReroute_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionReroute Name="MaterialExpressionReroute_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionPixelNormalWS Name="MaterialExpressionPixelNormalWS_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionOneMinus Name="MaterialExpressionOneMinus_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionNoise Name="MaterialExpressionNoise_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant3Vector Name="MaterialExpressionConstant3Vector_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant3Vector Name="MaterialExpressionConstant3Vector_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant3Vector Name="MaterialExpressionConstant3Vector_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_9"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_8"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComponentMask Name="MaterialExpressionComponentMask_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionClamp Name="MaterialExpressionClamp_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionClamp Name="MaterialExpressionClamp_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionClamp Name="MaterialExpressionClamp_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_3"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_0"
+      DefaultValue=(R=0.739583,G=0.184896,B=0.311091,A=1.000000)
+      ParameterName="Color"
+      ExpressionGUID=4B72297A4567639C3A3231890ED2E251
+      MaterialExpressionEditorX=-2222
+      MaterialExpressionEditorY=-1150
+      MaterialExpressionGuid=AEB0493D41E0E9F6143A09B161949BB0
+      Material=Material'"M_Dust"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameter2D_0"
+      ParameterName="Alpha"
+      ExpressionGUID=646DAB2E4F62D0AF32C5D5801A0E317C
+      Texture=Texture2D'"/Game/Textures/Tex/T_CleanUp.T_CleanUp"'
+      MaterialExpressionEditorX=-1968
+      MaterialExpressionEditorY=320
+      MaterialExpressionGuid=06E8E7414C86FA22F5845AB69BEB2358
+      Material=Material'"M_Dust"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_0"
+      Coordinates=(Expression=MaterialExpressionTextureCoordinate'"M_Dust:MaterialExpressionTextureCoordinate_0"')
+      Texture=Texture2D'"/Game/Textures/Tex/T_dirt_dust_01_2K.T_dirt_dust_01_2K"'
+      MaterialExpressionEditorX=-2124
+      MaterialExpressionEditorY=-268
+      MaterialExpressionGuid=456BA411422994D41C0682A9965AC47D
+      Material=Material'"M_Dust"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureCoordinate_0"
+      UTiling=2.500000
+      VTiling=2.500000
+      UnMirrorU=True
+      UnMirrorV=True
+      MaterialExpressionEditorX=-2316
+      MaterialExpressionEditorY=-252
+      MaterialExpressionGuid=EA1A049F482FC41104308E93B8AF39A6
+      Material=Material'"M_Dust"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_1"
+      DefaultValue=1.000000
+      ParameterName="l"
+      ExpressionGUID=950E4C904155EC0C368E1ABDF8259F2D
+      MaterialExpressionEditorX=-1456
+      MaterialExpressionEditorY=-384
+      MaterialExpressionGuid=E336804F49538773CA463CA6C5D6694D
+      Material=Material'"M_Dust"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_0"
+      DefaultValue=0.200000
+      ParameterName="Thickness"
+      ExpressionGUID=A66BAED044E950CB382BCAA9736557D0
+      MaterialExpressionEditorX=-1964
+      MaterialExpressionEditorY=-124
+      MaterialExpressionGuid=374266FF44714B6EFDBAC5ADB17CBF95
+      Material=Material'"M_Dust"'
+   End Object
+   Begin Object Name="MaterialExpressionReroute_3"
+      Input=(Expression=MaterialExpressionLinearInterpolate'"M_Dust:MaterialExpressionLinearInterpolate_0"')
+      MaterialExpressionEditorX=-1662
+      MaterialExpressionEditorY=-830
+      MaterialExpressionGuid=162C2FA04D9997EEB6FF2E975F0E6A02
+      Material=Material'"M_Dust"'
+   End Object
+   Begin Object Name="MaterialExpressionReroute_2"
+      Input=(Expression=MaterialExpressionReroute'"M_Dust:MaterialExpressionReroute_3"')
+      MaterialExpressionEditorX=-1950
+      MaterialExpressionEditorY=-830
+      MaterialExpressionGuid=49FEA1584E0F242FBBC7EDAA6865D15D
+      Material=Material'"M_Dust"'
+   End Object
+   Begin Object Name="MaterialExpressionPixelNormalWS_0"
+      MaterialExpressionEditorX=-2300
+      MaterialExpressionEditorY=-732
+      MaterialExpressionGuid=C780CAD842F30DEB8BC632B5829442FC
+      Material=Material'"M_Dust"'
+   End Object
+   Begin Object Name="MaterialExpressionOneMinus_0"
+      Input=(Expression=MaterialExpressionMaterialFunctionCall'"M_Dust:MaterialExpressionMaterialFunctionCall_0"')
+      MaterialExpressionEditorX=-1628
+      MaterialExpressionEditorY=-268
+      MaterialExpressionGuid=2FDF96DE4B0953A4553A45975223197B
+      Material=Material'"M_Dust"'
+   End Object
+   Begin Object Name="MaterialExpressionNoise_1"
+      Scale=-0.050000
+      NoiseFunction=NOISEFUNCTION_GradientTex
+      bTiling=True
+      RepeatSize=64
+      MaterialExpressionEditorX=-1152
+      MaterialExpressionEditorY=-144
+      MaterialExpressionGuid=A89622A14D91A306E94DDF9C37DF6C31
+      Material=Material'"M_Dust"'
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_3"
+      A=(Expression=MaterialExpressionScalarParameter'"M_Dust:MaterialExpressionScalarParameter_1"')
+      B=(Expression=MaterialExpressionConstant'"M_Dust:MaterialExpressionConstant_6"')
+      MaterialExpressionEditorX=-1312
+      MaterialExpressionEditorY=-352
+      MaterialExpressionGuid=D36480A74FD8DBA8DC8D66A15E6F059E
+      Material=Material'"M_Dust"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_2"
+      A=(Expression=MaterialExpressionMaterialFunctionCall'"M_Dust:MaterialExpressionMaterialFunctionCall_2"')
+      B=(Expression=MaterialExpressionMultiply'"M_Dust:MaterialExpressionMultiply_3"')
+      MaterialExpressionEditorX=-1184
+      MaterialExpressionEditorY=-448
+      MaterialExpressionGuid=DA7FAB9748166EE5BEE5DA967F1774FC
+      Material=Material'"M_Dust"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_1"
+      A=(Expression=MaterialExpressionMaterialFunctionCall'"M_Dust:MaterialExpressionMaterialFunctionCall_1"')
+      B=(Expression=MaterialExpressionConstant'"M_Dust:MaterialExpressionConstant_3"')
+      MaterialExpressionEditorX=-1582
+      MaterialExpressionEditorY=-1070
+      MaterialExpressionGuid=DF0EE12F4B4A55EEE553F7B53287851A
+      Material=Material'"M_Dust"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_0"
+      A=(Expression=MaterialExpressionPixelNormalWS'"M_Dust:MaterialExpressionPixelNormalWS_0"')
+      B=(Expression=MaterialExpressionConstant3Vector'"M_Dust:MaterialExpressionConstant3Vector_0"')
+      MaterialExpressionEditorX=-2092
+      MaterialExpressionEditorY=-668
+      MaterialExpressionGuid=86D70C784E831CDC85D083AE86FD0E08
+      Material=Material'"M_Dust"'
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_2"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions01/ImageAdjustment/CheapContrast.CheapContrast"'
+      FunctionInputs(0)=(ExpressionInputId=95C9DA0E48D34168E34AD3A607BAA34E,Input=(Expression=MaterialExpressionConstant'"M_Dust:MaterialExpressionConstant_9"',InputName="In"))
+      FunctionInputs(1)=(ExpressionInputId=3C3E177E485D8FFFC35D1482F0A20020,Input=(Expression=MaterialExpressionConstant'"M_Dust:MaterialExpressionConstant_4"',InputName="Contrast"))
+      FunctionOutputs(0)=(ExpressionOutputId=5067ED8C4A2EFE82DB33F99EBE37E80E,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=-1392
+      MaterialExpressionEditorY=-560
+      MaterialExpressionGuid=F47F6E5340D7446BD8DDCA9C77BC7120
+      Material=Material'"M_Dust"'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_1"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions01/ImageAdjustment/CheapContrast.CheapContrast"'
+      FunctionInputs(0)=(ExpressionInputId=95C9DA0E48D34168E34AD3A607BAA34E,Input=(Expression=MaterialExpressionLinearInterpolate'"M_Dust:MaterialExpressionLinearInterpolate_1"',InputName="In"))
+      FunctionInputs(1)=(ExpressionInputId=3C3E177E485D8FFFC35D1482F0A20020,Input=(Expression=MaterialExpressionConstant'"M_Dust:MaterialExpressionConstant_2"',InputName="Contrast"))
+      FunctionOutputs(0)=(ExpressionOutputId=5067ED8C4A2EFE82DB33F99EBE37E80E,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=-1822
+      MaterialExpressionEditorY=-1070
+      MaterialExpressionGuid=F47F6E5340D7446BD8DDCA9C77BC7120
+      Material=Material'"M_Dust"'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_0"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions01/ImageAdjustment/CheapContrast.CheapContrast"'
+      FunctionInputs(0)=(ExpressionInputId=95C9DA0E48D34168E34AD3A607BAA34E,Input=(Expression=MaterialExpressionTextureSample'"M_Dust:MaterialExpressionTextureSample_0"',OutputIndex=4,InputName="In",Mask=1,MaskA=1))
+      FunctionInputs(1)=(ExpressionInputId=3C3E177E485D8FFFC35D1482F0A20020,Input=(Expression=MaterialExpressionScalarParameter'"M_Dust:MaterialExpressionScalarParameter_0"',InputName="Contrast"))
+      FunctionOutputs(0)=(ExpressionOutputId=5067ED8C4A2EFE82DB33F99EBE37E80E,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=-1836
+      MaterialExpressionEditorY=-268
+      MaterialExpressionGuid=F47F6E5340D7446BD8DDCA9C77BC7120
+      Material=Material'"M_Dust"'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_4"
+      A=(Expression=MaterialExpressionAdd'"M_Dust:MaterialExpressionAdd_3"')
+      B=(Expression=MaterialExpressionConstant3Vector'"M_Dust:MaterialExpressionConstant3Vector_3"')
+      Alpha=(Expression=MaterialExpressionClamp'"M_Dust:MaterialExpressionClamp_2"')
+      MaterialExpressionEditorX=-917
+      MaterialExpressionEditorY=87
+      MaterialExpressionGuid=116EB9D1495A900D02BABF84B367AE95
+      Material=Material'"M_Dust"'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_3"
+      A=(Expression=MaterialExpressionConstant'"M_Dust:MaterialExpressionConstant_7"')
+      B=(Expression=MaterialExpressionConstant'"M_Dust:MaterialExpressionConstant_8"')
+      Alpha=(Expression=MaterialExpressionMultiply'"M_Dust:MaterialExpressionMultiply_2"')
+      MaterialExpressionEditorX=-880
+      MaterialExpressionEditorY=-416
+      MaterialExpressionGuid=6557FED54EAD12A9F341FC9B429B64A2
+      Material=Material'"M_Dust"'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_2"
+      A=(Expression=MaterialExpressionConstant3Vector'"M_Dust:MaterialExpressionConstant3Vector_2"')
+      B=(Expression=MaterialExpressionVectorParameter'"M_Dust:MaterialExpressionVectorParameter_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      Alpha=(Expression=MaterialExpressionMultiply'"M_Dust:MaterialExpressionMultiply_1"')
+      MaterialExpressionEditorX=-1486
+      MaterialExpressionEditorY=-1230
+      MaterialExpressionGuid=7025C937436EAB65C05119B4DD3E7268
+      Material=Material'"M_Dust"'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_1"
+      A=(Expression=MaterialExpressionConstant3Vector'"M_Dust:MaterialExpressionConstant3Vector_2"')
+      B=(Expression=MaterialExpressionVectorParameter'"M_Dust:MaterialExpressionVectorParameter_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      Alpha=(Expression=MaterialExpressionReroute'"M_Dust:MaterialExpressionReroute_2"')
+      MaterialExpressionEditorX=-1982
+      MaterialExpressionEditorY=-1166
+      MaterialExpressionGuid=970CAC6F474E0891744B20A32F3FED70
+      Material=Material'"M_Dust"'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_0"
+      A=(Expression=MaterialExpressionComponentMask'"M_Dust:MaterialExpressionComponentMask_0"')
+      B=(Expression=MaterialExpressionConstant'"M_Dust:MaterialExpressionConstant_1"')
+      Alpha=(Expression=MaterialExpressionOneMinus'"M_Dust:MaterialExpressionOneMinus_0"')
+      MaterialExpressionEditorX=-1660
+      MaterialExpressionEditorY=-556
+      MaterialExpressionGuid=F01D125548EA5CB1B63F8F80D0570A3B
+      Material=Material'"M_Dust"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant3Vector_3"
+      MaterialExpressionEditorX=-1291
+      MaterialExpressionEditorY=53
+      MaterialExpressionGuid=FDE504CD465A2EAD6F8639A235E13D02
+      Material=Material'"M_Dust"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant3Vector_2"
+      MaterialExpressionEditorX=-2222
+      MaterialExpressionEditorY=-1310
+      MaterialExpressionGuid=4A9435EF4EF3C981DA22B6A1867EC23F
+      Material=Material'"M_Dust"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant3Vector_0"
+      Constant=(R=0.000000,G=0.000000,B=1.000000,A=0.000000)
+      MaterialExpressionEditorX=-2316
+      MaterialExpressionEditorY=-620
+      MaterialExpressionGuid=A1F32FB045B7611C865E85946413007B
+      Material=Material'"M_Dust"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_9"
+      MaterialExpressionEditorX=-1456
+      MaterialExpressionEditorY=-528
+      MaterialExpressionGuid=16352C0248886724642E4D9DC025C1A1
+      Material=Material'"M_Dust"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_8"
+      R=1.000000
+      MaterialExpressionEditorX=-1001
+      MaterialExpressionEditorY=-442
+      MaterialExpressionGuid=BEE9B8B9458807A42FC9E39B63E2AB19
+      Material=Material'"M_Dust"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_7"
+      R=0.200000
+      MaterialExpressionEditorX=-996
+      MaterialExpressionEditorY=-536
+      MaterialExpressionGuid=4BA3C5F648BCCEA15A85FC8379A9B182
+      Material=Material'"M_Dust"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_6"
+      R=0.500000
+      MaterialExpressionEditorX=-1424
+      MaterialExpressionEditorY=-272
+      MaterialExpressionGuid=8FEE8758430158523634EE9B9198204E
+      Material=Material'"M_Dust"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_4"
+      R=0.100000
+      MaterialExpressionEditorX=-1456
+      MaterialExpressionEditorY=-448
+      MaterialExpressionGuid=DD2B820F42F21A5D4C59729F49491563
+      Material=Material'"M_Dust"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_3"
+      R=3.000000
+      MaterialExpressionEditorX=-1582
+      MaterialExpressionEditorY=-958
+      MaterialExpressionGuid=E25A607E4FBA5BDF802B819EA1510356
+      Material=Material'"M_Dust"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_2"
+      R=0.100000
+      MaterialExpressionEditorX=-1822
+      MaterialExpressionEditorY=-958
+      MaterialExpressionGuid=A7309999441F5BF764A799BD57C3B948
+      Material=Material'"M_Dust"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_1"
+      MaterialExpressionEditorX=-1820
+      MaterialExpressionEditorY=-524
+      MaterialExpressionGuid=6B3370C34040BB868BDD8E9C4A5DC651
+      Material=Material'"M_Dust"'
+   End Object
+   Begin Object Name="MaterialExpressionComponentMask_0"
+      Input=(Expression=MaterialExpressionMultiply'"M_Dust:MaterialExpressionMultiply_0"')
+      B=True
+      MaterialExpressionEditorX=-1964
+      MaterialExpressionEditorY=-668
+      MaterialExpressionGuid=1F2CAEF4468E40BD765B5B9A7DB2FF22
+      Material=Material'"M_Dust"'
+   End Object
+   Begin Object Name="MaterialExpressionComment_4"
+      SizeX=966
+      SizeY=443
+      Text="Roughness"
+      MaterialExpressionEditorX=-1488
+      MaterialExpressionEditorY=-608
+      MaterialExpressionGuid=B7D08DAF43883AA6EDAE408FF51D4874
+      Material=Material'"M_Dust"'
+   End Object
+   Begin Object Name="MaterialExpressionComment_3"
+      SizeX=197
+      SizeY=206
+      Text="Mask"
+      MaterialExpressionEditorX=-1710
+      MaterialExpressionEditorY=-606
+      MaterialExpressionGuid=17404D5B44DA06FB5424DEA7ABE6BF82
+      Material=Material'"M_Dust"'
+   End Object
+   Begin Object Name="MaterialExpressionComment_2"
+      SizeX=1196
+      SizeY=508
+      Text="Color"
+      MaterialExpressionEditorX=-2272
+      MaterialExpressionEditorY=-1360
+      MaterialExpressionGuid=21ED65CD4F3F7038867ACF9E5A5E83E9
+      Material=Material'"M_Dust"'
+   End Object
+   Begin Object Name="MaterialExpressionComment_1"
+      SizeX=624
+      SizeY=384
+      Text="DirectionalMask"
+      MaterialExpressionEditorX=-2372
+      MaterialExpressionEditorY=-782
+      MaterialExpressionGuid=2B7C4ED94C130E9CBA130FB04573E118
+      Material=Material'"M_Dust"'
+   End Object
+   Begin Object Name="MaterialExpressionComment_0"
+      SizeX=858
+      SizeY=313
+      Text="NoiseMask"
+      MaterialExpressionEditorX=-2366
+      MaterialExpressionEditorY=-318
+      MaterialExpressionGuid=07E788854199D4B5917B0C9FE2C3DBD6
+      Material=Material'"M_Dust"'
+   End Object
+   Begin Object Name="MaterialExpressionClamp_2"
+      Input=(Expression=MaterialExpressionTextureSampleParameter2D'"M_Dust:MaterialExpressionTextureSampleParameter2D_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      MaterialExpressionEditorX=-1248
+      MaterialExpressionEditorY=224
+      MaterialExpressionGuid=8BE9C5CE4935F154C22A5FAB71B3ECC2
+      Material=Material'"M_Dust"'
+   End Object
+   Begin Object Name="MaterialExpressionClamp_1"
+      Input=(Expression=MaterialExpressionLinearInterpolate'"M_Dust:MaterialExpressionLinearInterpolate_3"')
+      MaterialExpressionEditorX=-768
+      MaterialExpressionEditorY=-416
+      MaterialExpressionGuid=8107049840D711D1980021BB17C07E97
+      Material=Material'"M_Dust"'
+   End Object
+   Begin Object Name="MaterialExpressionClamp_0"
+      Input=(Expression=MaterialExpressionLinearInterpolate'"M_Dust:MaterialExpressionLinearInterpolate_2"')
+      MaterialExpressionEditorX=-1326
+      MaterialExpressionEditorY=-1230
+      MaterialExpressionGuid=25DBAB3845DE12CBF69A158D0C3E82F3
+      Material=Material'"M_Dust"'
+   End Object
+   Begin Object Name="MaterialExpressionAdd_3"
+      A=(Expression=MaterialExpressionNoise'"M_Dust:MaterialExpressionNoise_1"')
+      B=(Expression=MaterialExpressionOneMinus'"M_Dust:MaterialExpressionOneMinus_0"')
+      MaterialExpressionEditorX=-752
+      MaterialExpressionEditorY=-128
+      MaterialExpressionGuid=C861CBCC45272A070AE7EDA13142719F
+      Material=Material'"M_Dust"'
+      bCollapsed=False
+   End Object
+   BaseColor=(Expression=MaterialExpressionClamp'"MaterialExpressionClamp_0"')
+   Roughness=(Expression=MaterialExpressionClamp'"MaterialExpressionClamp_1"')
+   Normal=(Expression=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_4"')
+   Opacity=(Expression=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_4"')
+   OpacityMask=(Expression=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_4"')
+   BlendMode=BLEND_Masked
+   ShadingModel=MSM_PreintegratedSkin
+   AmbientOcclusion=(Expression=MaterialExpressionTextureSampleParameter2D'"MaterialExpressionTextureSampleParameter2D_0"',OutputIndex=4,Mask=1,MaskA=1)
+   bUsedWithStaticLighting=True
+   EditorX=-320
+   EditorY=-128
+   Expressions(0)=MaterialExpressionClamp'"MaterialExpressionClamp_0"'
+   Expressions(1)=MaterialExpressionClamp'"MaterialExpressionClamp_1"'
+   Expressions(2)=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_4"'
+   Expressions(3)=MaterialExpressionTextureSampleParameter2D'"MaterialExpressionTextureSampleParameter2D_0"'
+   Expressions(4)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"'
+   Expressions(5)=MaterialExpressionPixelNormalWS'"MaterialExpressionPixelNormalWS_0"'
+   Expressions(6)=MaterialExpressionMultiply'"MaterialExpressionMultiply_0"'
+   Expressions(7)=MaterialExpressionConstant3Vector'"MaterialExpressionConstant3Vector_0"'
+   Expressions(8)=MaterialExpressionComponentMask'"MaterialExpressionComponentMask_0"'
+   Expressions(9)=MaterialExpressionTextureCoordinate'"MaterialExpressionTextureCoordinate_0"'
+   Expressions(10)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_0"'
+   Expressions(11)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_0"'
+   Expressions(12)=MaterialExpressionOneMinus'"MaterialExpressionOneMinus_0"'
+   Expressions(13)=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_0"'
+   Expressions(14)=MaterialExpressionConstant'"MaterialExpressionConstant_1"'
+   Expressions(15)=MaterialExpressionConstant3Vector'"MaterialExpressionConstant3Vector_2"'
+   Expressions(16)=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_1"'
+   Expressions(17)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_1"'
+   Expressions(18)=MaterialExpressionConstant'"MaterialExpressionConstant_2"'
+   Expressions(19)=MaterialExpressionMultiply'"MaterialExpressionMultiply_1"'
+   Expressions(20)=MaterialExpressionConstant'"MaterialExpressionConstant_3"'
+   Expressions(21)=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_2"'
+   Expressions(22)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_2"'
+   Expressions(23)=MaterialExpressionConstant'"MaterialExpressionConstant_4"'
+   Expressions(24)=MaterialExpressionReroute'"MaterialExpressionReroute_2"'
+   Expressions(25)=MaterialExpressionReroute'"MaterialExpressionReroute_3"'
+   Expressions(26)=MaterialExpressionMultiply'"MaterialExpressionMultiply_2"'
+   Expressions(27)=MaterialExpressionMultiply'"MaterialExpressionMultiply_3"'
+   Expressions(28)=MaterialExpressionConstant'"MaterialExpressionConstant_6"'
+   Expressions(29)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_1"'
+   Expressions(30)=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_3"'
+   Expressions(31)=MaterialExpressionConstant'"MaterialExpressionConstant_7"'
+   Expressions(32)=MaterialExpressionConstant'"MaterialExpressionConstant_8"'
+   Expressions(33)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_0"'
+   Expressions(34)=MaterialExpressionClamp'"MaterialExpressionClamp_2"'
+   Expressions(35)=MaterialExpressionConstant3Vector'"MaterialExpressionConstant3Vector_3"'
+   Expressions(36)=MaterialExpressionConstant'"MaterialExpressionConstant_9"'
+   Expressions(37)=MaterialExpressionNoise'"MaterialExpressionNoise_1"'
+   Expressions(38)=MaterialExpressionAdd'"MaterialExpressionAdd_3"'
+   EditorComments(0)=MaterialExpressionComment'"MaterialExpressionComment_0"'
+   EditorComments(1)=MaterialExpressionComment'"MaterialExpressionComment_1"'
+   EditorComments(2)=MaterialExpressionComment'"MaterialExpressionComment_2"'
+   EditorComments(3)=MaterialExpressionComment'"MaterialExpressionComment_3"'
+   EditorComments(4)=MaterialExpressionComment'"MaterialExpressionComment_4"'
+   ParameterGroupData(0)=(GroupName="None")
+   ParameterGroupData(1)=(GroupName="None")
+   ParameterGroupData(2)=(GroupName="None")
+   ParameterGroupData(3)=(GroupName="None")
+   MaterialFunctionInfos(0)=(StateId=B7C71B914E2BB667772D6CBE2AB55665,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient.LinearGradient"')
+   MaterialFunctionInfos(1)=(StateId=3FA44BF2462D624CFA2229876FE1F968,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions01/ImageAdjustment/CheapContrast.CheapContrast"')
+   MaterialFunctionInfos(2)=(StateId=B7C71B914E2BB667772D6CBE2AB55665,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient.LinearGradient"')
+   MaterialFunctionInfos(3)=(StateId=3FA44BF2462D624CFA2229876FE1F968,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions01/ImageAdjustment/CheapContrast.CheapContrast"')
+   MaterialFunctionInfos(4)=(StateId=B7C71B914E2BB667772D6CBE2AB55665,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient.LinearGradient"')
+   MaterialFunctionInfos(5)=(StateId=3FA44BF2462D624CFA2229876FE1F968,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions01/ImageAdjustment/CheapContrast.CheapContrast"')
+   StateId=D440E3C04AA97A9D92F45380C80C57AD
+   ReferencedTextureGuids(0)=7820560D4D7CE5CD6139239F2690B71B
+   ReferencedTextureGuids(1)=8BD90AE140831AF7C7B507B774E5EA71
+   LightmassSettings=(DiffuseBoost=1.500000,ExportResolutionScale=1.500000)
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=7B03308B40C66186CE7031B49BDCCAA6
+End Object

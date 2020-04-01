@@ -1,0 +1,62 @@
+[
+	{
+        "name": "key",
+        "item_name": "key",
+        "explanation": "This key will unlock doors",
+        "location": "A",
+        "interactable": true,
+        "grippable": true,
+        "wearable": false,
+        "edible": false
+    },
+    {
+        "name": "lock",
+        "item_name": "lock",
+        "explanation": "Use key to unlock this lock",
+        "location": "B",
+        "interactable": true,
+        "grippable": false,
+        "wearable": true,
+        "edible": false
+    },
+    {
+        "name": "handle",
+        "item_name": "handle",
+        "explanation": "Turn handle to open",
+        "location": "C",
+        "interactable": true,
+        "grippable": true,
+        "wearable": false,
+        "edible": false
+    },
+    {
+        "name": "gun",
+        "item_name": "gun",
+        "explanation": "weapon",
+        "location": "D",
+        "interactable": true,
+        "grippable": true,
+        "wearable": true,
+        "edible": false
+    },
+    {
+        "name": "pill",
+        "item_name": "pill",
+        "explanation": "eat for health",
+        "location": "E",
+        "interactable": true,
+        "grippable": true,
+        "wearable": true,
+        "edible": true
+    },
+    {
+        "name": "static pickup",
+        "item_name": "static pickup",
+        "explanation": "touch to add to inventory",
+        "location": "F",
+        "interactable": false,
+        "grippable": false,
+        "wearable": false,
+        "edible": false
+    }
+]
